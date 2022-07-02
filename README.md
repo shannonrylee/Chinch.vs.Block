@@ -5,7 +5,7 @@
 
 ## *Description:*
 
-#### For this project I would like to build a Dino Game. Instead of a dino, it would be a chinchilla. This contains elements within a couple of HTML divs and 10 lines of JS code. 
+#### ~~The Chrome Dino Run~~, Chinch vs. Block. The orignal Chrome Dino game consist of a T-Rex trying to jump over a moving object. When you click the screen at the right time the T-Rex should jump over said object. If you click too soon or too late, you lose. However, for this concept. I decided to change it up a bit. Instead of a T-Rex it would be a Chinchiila. This whole game would be constructed by using a couple HTML divs and ten lines of Javascript.
 
 ## *Technologies Used:*
 * HTML
