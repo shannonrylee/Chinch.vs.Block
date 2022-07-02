@@ -10,8 +10,10 @@
 ## *Technologies Used:*
 * HTML
   * Divs
-*CSS
- *Flex
+* Javascript
+* CSS
+ * Flex
+ 
 ## *Screenshots:*
 
 #### GAME 
