@@ -11,7 +11,6 @@
 * HTML
 * Javascript
 * CSS
- * Flex
  
 ## *Screenshots:*
 
