@@ -9,7 +9,6 @@
 
 ## *Technologies Used:*
 * HTML
-  * Divs
 * Javascript
 * CSS
  * Flex
