@@ -1,3 +1,71 @@
+body {
+    background: cover;
+    background: url(https://images.hdqwalls.com/download/polygon-mountains-minimalist-r3-1920x1080.jpg);
+    
+}
 h1 {
+    padding: 90px;
+    margin: 20px;
+    left: 20px;
+    flex-wrap:nowrap;
+    display: flex;
+    display: grid;
+    justify-content: center;
     font-family: 'Press Start 2P', cursive;
+    color: blueviolet;   
+}
+#game {
+    width: 800px;
+    height: 500px;
+    border: 5px solid blueviolet;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    display: grid;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#chinchilla {
+    width: 210px;
+    height: 190px;
+    position: relative;
+    bottom: -315px;
+    right: 343px;
+    background: url(chinchilla.png);
+}
+.animate{
+    animation: jump 500ms;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}   
+#block {
+    width: 90px;
+    height: 70px;
+    position: relative;
+    bottom: -120px;
+    left: 415px;
+    background: url(/image/block.png);
+    /* animation: block 1s infinite linear; */
+}
+@keyframes block{ 
+    0%{left: 100px}
+    100%{left:-40px;}
+}
+#scoreboard {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    text-align: end;
+    color: rgb(93, 194, 252)
+}
+#startgame{
+    justify-content: center;
+    display: grid;
+    display: flex;
+    font: blueviolet;
+    background: url(https://images.hdqwalls.com/download/polygon-mountains-minimalist-r3-1920x1080.jpg)
 }
