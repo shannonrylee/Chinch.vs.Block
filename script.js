@@ -18,10 +18,13 @@ var check = setInterval(function () {
   const blockLeft = parseInt(
     window.getComputedStyle(block).getPropertyValue("left")
   );
-  if (blockLeft < 20 && blockLeft > 0 && chinchillaTop >= 130) {
-    block.style.animation = "none";
+  if (blockLeft < 0) {
     block.style.display = "none";
+  } else {
+    block.style.display = "";
+  }
+  if (blockLeft < 20 && blockLeft > 0 && chinchillaTop > 130) {
     alert("You got a score of: " + score.innerText + "\nPlay Again");
     location.reload();
   }
-}, 90);
+}, 100);
