@@ -18,7 +18,7 @@ function breakNeck() {
 }
 function jump() {
   if (chinchilla.classList != "animate") chinchilla.classList.add("animate");
-  setTimeout(breakNeck, 500);
+  setTimeout(breakNeck, 900);
 }
 
 let check = setInterval(function () {
@@ -30,7 +30,7 @@ let check = setInterval(function () {
     window.getComputedStyle(block).getPropertyValue("left")
   );
 
-  if (blockLeft < 20 && blockLeft > 0 && chinchillaTop >= 130) {
+  if (blockLeft < 20 && blockLeft > 0 && chinchillaTop >= 200) {
     block.style.animation = "none";
     block.style.display = "none";
     alert("You got a score of: " + score.innerText + "!");

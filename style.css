@@ -33,12 +33,12 @@ h1 {
     background: url(chinchilla.png);
 }
 .animate{
-    animation: jump 500ms;
+    animation: jump 900ms;
 }
 @keyframes jump{
     0%{top: 150px;}
-    30%{top: 100px;}
-    70%{top: 100px;}
+    40%{top: 100px;}
+    80%{top: 100px;}
     100%{top: 150px;}
 }   
 .block {
@@ -51,21 +51,21 @@ h1 {
 }
 @keyframes block{ 
     0%{right: -9%}
-    100%{right: 78%}
+    100%{right: 79%}
 }
 #scoreboard {
     font-family: 'Press Start 2P', cursive;
     font-size: 25px;
     margin-left: 47rem;
     margin-top: 3rem;
-    color: rgb(37, 175, 255)
+    color: rgb(37, 175, 255);
+    align-items: center;
 }
 .score {
     margin-bottom: -5rem;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    position: absolute;
+    align-items: center;
 }
 #start{
     font-family: 'Press Start 2P', cursive;
