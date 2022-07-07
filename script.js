@@ -11,8 +11,7 @@ function startGame() {
   start.style.display = "none";
   game.style.display = "";
   score.style.display = "";
-
-  start();
+  startGame();
 }
 function breakNeck() {
   chinchilla.classList.remove("animate");
@@ -22,20 +21,18 @@ function jump() {
   setTimeout(breakNeck, 500);
 }
 
-var check = setInterval(function () {
+let check = setInterval(function () {
   score.innerText++;
-  var chinchillaTop = parseInt(
+  let chinchillaTop = parseInt(
     window.getComputedStyle(chinchilla).getPropertyValue("top")
   );
-  var blockLeft = parseInt(
+  let blockLeft = parseInt(
     window.getComputedStyle(block).getPropertyValue("left")
   );
-  if (blockLeft < 0) {
-    block.style.display = "none";
-  } else {
-    block.style.display = "";
-  }
+
   if (blockLeft < 20 && blockLeft > 0 && chinchillaTop >= 130) {
+    block.style.animation = "none";
+    block.style.display = "none";
     alert("You got a score of: " + score.innerText + "!");
     location.reload();
   }

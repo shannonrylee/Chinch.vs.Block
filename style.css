@@ -47,11 +47,11 @@ h1 {
     position: relative;
     margin-top: 13.5rem;
     margin-left: 38.5rem;
-    animation: block 9s infinite linear;
+    animation: block 3s infinite linear;
 }
 @keyframes block{ 
-    0%{left: 90px}
-    100%{left: -100px;}
+    0%{right: -9%}
+    100%{right: 78%}
 }
 #scoreboard {
     font-family: 'Press Start 2P', cursive;
@@ -62,6 +62,8 @@ h1 {
 }
 .score {
     margin-bottom: -5rem;
+    display: flex;
+    justify-content: flex-end;
     align-items: flex-end;
     position: absolute;
 }
