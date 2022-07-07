@@ -29,23 +29,23 @@ h1 {
     height: 190px;
     position: relative;
     margin-left: -3rem;
-    bottom: -19.8rem;
+    bottom: -14.5rem;
     background: url(chinchilla.png);
 }
 .animate{
     animation: jump 900ms;
 }
 @keyframes jump{
-    0%{top: 150px;}
-    40%{top: 100px;}
-    80%{top: 100px;}
-    100%{top: 150px;}
+    0%{top: 160px;}
+    40%{top: 110px;}
+    80%{top: 110px;}
+    100%{top: 160px;}
 }   
 .block {
     width: 90px;
     height: 70px;
     position: relative;
-    margin-top: 13.5rem;
+    margin-top: 8.4rem;
     margin-left: 38.5rem;
     animation: block 3s infinite linear;
 }
@@ -59,13 +59,9 @@ h1 {
     margin-left: 47rem;
     margin-top: 3rem;
     color: rgb(37, 175, 255);
-    align-items: center;
 }
 .score {
-    margin-bottom: -5rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    margin-left: -6rem;
 }
 #start{
     font-family: 'Press Start 2P', cursive;

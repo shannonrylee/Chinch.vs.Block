@@ -30,7 +30,7 @@ let check = setInterval(function () {
     window.getComputedStyle(block).getPropertyValue("left")
   );
 
-  if (blockLeft < 20 && blockLeft > 0 && chinchillaTop >= 200) {
+  if (blockLeft < 20 && blockLeft > 0 && chinchillaTop >= 197) {
     block.style.animation = "none";
     block.style.display = "none";
     alert("You got a score of: " + score.innerText + "!");
