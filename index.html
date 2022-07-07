@@ -10,13 +10,21 @@
 <body>
     <h1>Chinch vs. Mountain</h1>
     <div class="score">
-        <div id="scoreboard">0</div>
+        <div id="scoreboard" style="position: relative">0</div>
     </div> 
-    <div id="game">
+    <div id="game"> 
     <div id="chinchilla"></div>
     <div class="block"><img src="images/block.png"></div>
     </div>
-    <button id="startgame">Start Game</button>
+    <div class="container">
+    <button id="start" onclick="startGame()">Start Game</button>
+    </div>
+    <div id="audio">
+        <audio controls autoplay hidden>
+         <source src="/audio/Monkeys Spinning Monkeys.mp3" type="audio/mpeg">
+                    unsupported !! 
+        </audio>
+    </div>
 <script src="script.js"></script>
 </body>
 </html>

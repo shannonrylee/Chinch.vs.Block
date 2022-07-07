@@ -3,8 +3,8 @@ body {
     background: url(https://images.hdqwalls.com/download/polygon-mountains-minimalist-r3-1920x1080.jpg);   
 }
 h1 {
-    padding: 70px;
-    margin: 20px;
+    padding: 80px;
+    margin: 40px;
     left: 20px;
     flex-wrap:nowrap;
     display: flex;
@@ -47,23 +47,34 @@ h1 {
     position: relative;
     margin-top: 13.5rem;
     margin-left: 38.5rem;
-    animation: block 2s infinite linear;
+    animation: block 9s infinite linear;
 }
 @keyframes block{ 
-    0%{left: 110px}
-    100%{left: -620px;}
+    0%{left: 90px}
+    100%{left: -100px;}
 }
 #scoreboard {
     font-family: 'Press Start 2P', cursive;
     font-size: 25px;
     margin-left: 47rem;
+    margin-top: 3rem;
     color: rgb(37, 175, 255)
 }
-#startgame{
+.score {
+    margin-bottom: -5rem;
+    align-items: flex-end;
+    position: absolute;
+}
+#start{
     font-family: 'Press Start 2P', cursive;
-    font: blueviolet;
-    padding: 10px;
-    display: center 100%;
+    font-size: 80px;
+    border: 0;
+    color: rgb(105, 181, 225);
+    padding: 20px;
+    margin-top: 15rem;
     flex-wrap: nowrap;
     background: url(https://images.hdqwalls.com/download/polygon-mountains-minimalist-r3-1920x1080.jpg);
+}
+.container{
+    text-align: center; 
 }
