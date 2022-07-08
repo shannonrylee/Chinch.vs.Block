@@ -2,7 +2,7 @@
 
 ## 7.02.2022
 ### By: Shannon Quinn
-[Trello](https://trello.com/b/QpxxqLTW/chinch-vs-block) |  [Wireframe](https://wireframe.cc/pro/edit/563321)
+[Trello](https://trello.com/b/A9EI7ur5/cvm-working) |  [Wireframe](https://wireframe.cc/pro/edit/563321)
 
 ## *Description:*
 
