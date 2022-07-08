@@ -69,10 +69,14 @@ h1 {
     border: 0;
     color: rgb(105, 181, 225);
     padding: 20px;
-    margin-top: 15rem;
+    margin-top: 24rem;
     flex-wrap: nowrap;
     background: url(https://images.hdqwalls.com/download/polygon-mountains-minimalist-r3-1920x1080.jpg);
 }
 .container{
     text-align: center; 
+    background: url(/images/start.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto;
 }
